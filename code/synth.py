@@ -145,8 +145,6 @@ def synthesis(x, x0, J, L=4, dn=0, cross_pairs=[], wph_model=["S11", "S00", "S01
         Device for stats computation, by default "cpu"
     optim_params : dict, optional
         Optimization parameters, by default {}
-    lp_jlist : list, optional
-        List of scales for scaling moments, by default [-1, 0, 1, 2]
 
     Returns
     -------
@@ -195,7 +193,7 @@ def synthesis(x, x0, J, L=4, dn=0, cross_pairs=[], wph_model=["S11", "S00", "S01
 
     dim_stats = 2*len(coeffs_auto)*coeffs_auto[0].shape[0]
     if len(coeffs_cross) != 0: dim_stats += 2*len(coeffs_cross)*coeffs_cross[0].shape[0]
-    print(f"(Approximate) ratio d / n: {(dim_stats / (M*N*nchan) * 100):.2f}%")
+    print(f"(Approximate) ratio n / m: {(dim_stats / (M*N*nchan) * 100):.2f}%")
 
     ## Optimization
     total_start_time = time.time()
