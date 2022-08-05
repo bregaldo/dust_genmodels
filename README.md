@@ -1,6 +1,6 @@
 # Generative Models of Multi-channel Data Based on a Single Example - Application to Dust Emission
 
-Code associated with the paper "Generative Models of Multi-channel Data Based on a Single Example - Application to Dust Emission". The computation of the WPH statistics relies on the Python package [PyWPH](https://github.com/bregaldo/pywph/), first released in [arXiv:2102.03160](https://arxiv.org/abs/2102.03160).
+Code associated with the paper "Generative Models of Multi-channel Data Based on a Single Example - Application to Dust Emission". The computation of the WPH statistics relies on the Python package [PyWPH](https://github.com/bregaldo/pywph/) (v1.1), first released in [arXiv:2102.03160](https://arxiv.org/abs/2102.03160).
 
 We provide:
 * The [data](data/) used in the paper, that is the set of simulated multi-frequency $(I, E, B)$ maps of the thermal emission of interstellar dust on which the generative models are based on.
