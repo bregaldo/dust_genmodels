@@ -1,7 +1,7 @@
 # Generative Models of Multi-channel Data Based on a Single Example - Application to Dust Emission
 
 Code associated with:
-Régaldo-Saint Blancard, B., Allys, E., Auclair, C., Boulanger, F., Eickenberg, M., Levrier, F., Vacher, L. & Zhang, S. (submitted). Generative Models of Multi-channel Data Based on a Single Example - Application to Dust Emission". [arXiv:?]()
+Régaldo-Saint Blancard, B., Allys, E., Auclair, C., Boulanger, F., Eickenberg, M., Levrier, F., Vacher, L. & Zhang, S. (submitted). "Generative Models of Multi-channel Data Based on a Single Example - Application to Dust Emission". [arXiv:2208.03538](http://arxiv.org/abs/2208.03538)
 
 The computation of the WPH statistics relies on the Python package [PyWPH](https://github.com/bregaldo/pywph/) (v1.1), first released in [arXiv:2102.03160](https://arxiv.org/abs/2102.03160).
 
