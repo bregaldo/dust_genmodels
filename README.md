@@ -1,5 +1,7 @@
 # Generative Models of Multi-channel Data Based on a Single Example - Application to Dust Emission
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7342682.svg)](https://doi.org/10.5281/zenodo.7342682)
+
 Code associated with:
 Régaldo-Saint Blancard, B., Allys, E., Auclair, C., Boulanger, F., Eickenberg, M., Levrier, F., Vacher, L. & Zhang, S. (submitted). "Generative Models of Multi-channel Data Based on a Single Example - Application to Dust Emission". [arXiv:2208.03538](http://arxiv.org/abs/2208.03538)
 
